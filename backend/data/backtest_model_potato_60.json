@@ -1,0 +1,8 @@
+{
+  "n_points": 52,
+  "n_lock_advice": 24,
+  "lock_precision_pct": 70.8,
+  "mean_advantage_model_pct": 11.9,
+  "mean_advantage_naive_pct": 2.9,
+  "note": "AI-стратегия фиксирует только при прогнозе падения. lock_precision — доля верных решений «зафиксировать». Без lookahead: модель обучается лишь на прошлом."
+}

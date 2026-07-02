@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "user_name": "КФХ «Золотая Нива»",
+    "region": "Краснодарский край",
+    "crop": "wheat",
+    "crop_name": "Пшеница",
+    "volume_tons": 50.0,
+    "price_per_kg": 18.5,
+    "delivery_days": 60,
+    "quality": "ГОСТ, 3 класс",
+    "created_at": "2026-06-26 02:38:29.278030"
+  },
+  {
+    "id": 2,
+    "user_name": "Агрофирма «Дон»",
+    "region": "Ростовская область",
+    "crop": "wheat",
+    "crop_name": "Пшеница",
+    "volume_tons": 120.0,
+    "price_per_kg": 19.2,
+    "delivery_days": 45,
+    "quality": "ГОСТ, 4 класс",
+    "created_at": "2026-06-26 02:38:29.278030"
+  },
+  {
+    "id": 3,
+    "user_name": "КФХ Петров А.И.",
+    "region": "Воронежская область",
+    "crop": "potato",
+    "crop_name": "Картофель",
+    "volume_tons": 30.0,
+    "price_per_kg": 27.0,
+    "delivery_days": 30,
+    "quality": "продовольственный",
+    "created_at": "2026-06-26 02:38:29.278030"
+  },
+  {
+    "id": 4,
+    "user_name": "ООО «Картофель Черноземья»",
+    "region": "Липецкая область",
+    "crop": "potato",
+    "crop_name": "Картофель",
+    "volume_tons": 80.0,
+    "price_per_kg": 28.5,
+    "delivery_days": 90,
+    "quality": "продовольственный, мытый",
+    "created_at": "2026-06-26 02:38:29.278030"
+  },
+  {
+    "id": 5,
+    "user_name": "Агрохолдинг «Юг»",
+    "region": "Краснодарский край",
+    "crop": "sunflower",
+    "crop_name": "Подсолнечник",
+    "volume_tons": 100.0,
+    "price_per_kg": 38.0,
+    "delivery_days": 60,
+    "quality": "масличный, влажность 7%",
+    "created_at": "2026-06-26 02:38:29.278030"
+  },
+  {
+    "id": 6,
+    "user_name": "КФХ «Степное»",
+    "region": "Саратовская область",
+    "crop": "sunflower",
+    "crop_name": "Подсолнечник",
+    "volume_tons": 60.0,
+    "price_per_kg": 39.5,
+    "delivery_days": 75,
+    "quality": "масличный",
+    "created_at": "2026-06-26 02:38:29.278030"
+  }
+]

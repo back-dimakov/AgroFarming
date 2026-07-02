@@ -1,0 +1,562 @@
+{
+  "crop": "wheat",
+  "crop_name": "Пшеница",
+  "horizon_days": 60,
+  "horizon_months": 2,
+  "n_windows": 76,
+  "win_rate_pct": 43.4,
+  "median_advantage_pct": -1.6,
+  "mean_advantage_pct": -0.7,
+  "best_advantage_pct": 14.6,
+  "worst_advantage_pct": -12.8,
+  "recent_scenario": {
+    "lock_date": "2025-04-01",
+    "delivery_date": "2025-06-01",
+    "locked": 20.68,
+    "delivery": 19.72,
+    "advantage_pct": 4.9
+  },
+  "windows": [
+    {
+      "lock_date": "2019-01-01",
+      "delivery_date": "2019-03-01",
+      "locked": 14.13,
+      "delivery": 14.69,
+      "advantage_pct": -3.8
+    },
+    {
+      "lock_date": "2019-02-01",
+      "delivery_date": "2019-04-01",
+      "locked": 14.47,
+      "delivery": 14.72,
+      "advantage_pct": -1.7
+    },
+    {
+      "lock_date": "2019-03-01",
+      "delivery_date": "2019-05-01",
+      "locked": 14.69,
+      "delivery": 14.0,
+      "advantage_pct": 4.9
+    },
+    {
+      "lock_date": "2019-04-01",
+      "delivery_date": "2019-06-01",
+      "locked": 14.72,
+      "delivery": 13.15,
+      "advantage_pct": 11.9
+    },
+    {
+      "lock_date": "2019-05-01",
+      "delivery_date": "2019-07-01",
+      "locked": 14.0,
+      "delivery": 13.29,
+      "advantage_pct": 5.3
+    },
+    {
+      "lock_date": "2019-06-01",
+      "delivery_date": "2019-08-01",
+      "locked": 13.15,
+      "delivery": 12.78,
+      "advantage_pct": 2.9
+    },
+    {
+      "lock_date": "2019-07-01",
+      "delivery_date": "2019-09-01",
+      "locked": 13.29,
+      "delivery": 13.0,
+      "advantage_pct": 2.2
+    },
+    {
+      "lock_date": "2019-08-01",
+      "delivery_date": "2019-10-01",
+      "locked": 12.78,
+      "delivery": 13.71,
+      "advantage_pct": -6.8
+    },
+    {
+      "lock_date": "2019-09-01",
+      "delivery_date": "2019-11-01",
+      "locked": 13.0,
+      "delivery": 14.38,
+      "advantage_pct": -9.6
+    },
+    {
+      "lock_date": "2019-10-01",
+      "delivery_date": "2019-12-01",
+      "locked": 13.71,
+      "delivery": 15.15,
+      "advantage_pct": -9.5
+    },
+    {
+      "lock_date": "2019-11-01",
+      "delivery_date": "2020-01-01",
+      "locked": 14.38,
+      "delivery": 15.22,
+      "advantage_pct": -5.5
+    },
+    {
+      "lock_date": "2019-12-01",
+      "delivery_date": "2020-02-01",
+      "locked": 15.15,
+      "delivery": 15.42,
+      "advantage_pct": -1.8
+    },
+    {
+      "lock_date": "2020-01-01",
+      "delivery_date": "2020-03-01",
+      "locked": 15.22,
+      "delivery": 15.92,
+      "advantage_pct": -4.4
+    },
+    {
+      "lock_date": "2020-02-01",
+      "delivery_date": "2020-04-01",
+      "locked": 15.42,
+      "delivery": 15.33,
+      "advantage_pct": 0.6
+    },
+    {
+      "lock_date": "2020-03-01",
+      "delivery_date": "2020-05-01",
+      "locked": 15.92,
+      "delivery": 14.42,
+      "advantage_pct": 10.4
+    },
+    {
+      "lock_date": "2020-04-01",
+      "delivery_date": "2020-06-01",
+      "locked": 15.33,
+      "delivery": 14.09,
+      "advantage_pct": 8.8
+    },
+    {
+      "lock_date": "2020-05-01",
+      "delivery_date": "2020-07-01",
+      "locked": 14.42,
+      "delivery": 14.5,
+      "advantage_pct": -0.6
+    },
+    {
+      "lock_date": "2020-06-01",
+      "delivery_date": "2020-08-01",
+      "locked": 14.09,
+      "delivery": 13.64,
+      "advantage_pct": 3.3
+    },
+    {
+      "lock_date": "2020-07-01",
+      "delivery_date": "2020-09-01",
+      "locked": 14.5,
+      "delivery": 13.75,
+      "advantage_pct": 5.5
+    },
+    {
+      "lock_date": "2020-08-01",
+      "delivery_date": "2020-10-01",
+      "locked": 13.64,
+      "delivery": 14.25,
+      "advantage_pct": -4.3
+    },
+    {
+      "lock_date": "2020-09-01",
+      "delivery_date": "2020-11-01",
+      "locked": 13.75,
+      "delivery": 15.6,
+      "advantage_pct": -11.9
+    },
+    {
+      "lock_date": "2020-10-01",
+      "delivery_date": "2020-12-01",
+      "locked": 14.25,
+      "delivery": 16.35,
+      "advantage_pct": -12.8
+    },
+    {
+      "lock_date": "2020-11-01",
+      "delivery_date": "2021-01-01",
+      "locked": 15.6,
+      "delivery": 15.85,
+      "advantage_pct": -1.6
+    },
+    {
+      "lock_date": "2020-12-01",
+      "delivery_date": "2021-02-01",
+      "locked": 16.35,
+      "delivery": 16.43,
+      "advantage_pct": -0.5
+    },
+    {
+      "lock_date": "2021-01-01",
+      "delivery_date": "2021-03-01",
+      "locked": 15.85,
+      "delivery": 17.07,
+      "advantage_pct": -7.1
+    },
+    {
+      "lock_date": "2021-02-01",
+      "delivery_date": "2021-04-01",
+      "locked": 16.43,
+      "delivery": 16.68,
+      "advantage_pct": -1.5
+    },
+    {
+      "lock_date": "2021-03-01",
+      "delivery_date": "2021-05-01",
+      "locked": 17.07,
+      "delivery": 15.32,
+      "advantage_pct": 11.4
+    },
+    {
+      "lock_date": "2021-04-01",
+      "delivery_date": "2021-06-01",
+      "locked": 16.68,
+      "delivery": 14.9,
+      "advantage_pct": 11.9
+    },
+    {
+      "lock_date": "2021-05-01",
+      "delivery_date": "2021-07-01",
+      "locked": 15.32,
+      "delivery": 14.79,
+      "advantage_pct": 3.6
+    },
+    {
+      "lock_date": "2021-06-01",
+      "delivery_date": "2021-08-01",
+      "locked": 14.9,
+      "delivery": 14.08,
+      "advantage_pct": 5.8
+    },
+    {
+      "lock_date": "2021-07-01",
+      "delivery_date": "2021-09-01",
+      "locked": 14.79,
+      "delivery": 14.95,
+      "advantage_pct": -1.1
+    },
+    {
+      "lock_date": "2021-08-01",
+      "delivery_date": "2021-10-01",
+      "locked": 14.08,
+      "delivery": 15.32,
+      "advantage_pct": -8.1
+    },
+    {
+      "lock_date": "2021-09-01",
+      "delivery_date": "2021-11-01",
+      "locked": 14.95,
+      "delivery": 15.51,
+      "advantage_pct": -3.6
+    },
+    {
+      "lock_date": "2021-10-01",
+      "delivery_date": "2021-12-01",
+      "locked": 15.32,
+      "delivery": 16.44,
+      "advantage_pct": -6.8
+    },
+    {
+      "lock_date": "2021-11-01",
+      "delivery_date": "2022-01-01",
+      "locked": 15.51,
+      "delivery": 16.39,
+      "advantage_pct": -5.4
+    },
+    {
+      "lock_date": "2021-12-01",
+      "delivery_date": "2022-02-01",
+      "locked": 16.44,
+      "delivery": 16.82,
+      "advantage_pct": -2.3
+    },
+    {
+      "lock_date": "2022-01-01",
+      "delivery_date": "2022-03-01",
+      "locked": 16.39,
+      "delivery": 17.94,
+      "advantage_pct": -8.6
+    },
+    {
+      "lock_date": "2022-02-01",
+      "delivery_date": "2022-04-01",
+      "locked": 16.82,
+      "delivery": 17.19,
+      "advantage_pct": -2.2
+    },
+    {
+      "lock_date": "2022-03-01",
+      "delivery_date": "2022-05-01",
+      "locked": 17.94,
+      "delivery": 16.76,
+      "advantage_pct": 7.0
+    },
+    {
+      "lock_date": "2022-04-01",
+      "delivery_date": "2022-06-01",
+      "locked": 17.19,
+      "delivery": 16.41,
+      "advantage_pct": 4.8
+    },
+    {
+      "lock_date": "2022-05-01",
+      "delivery_date": "2022-07-01",
+      "locked": 16.76,
+      "delivery": 15.93,
+      "advantage_pct": 5.2
+    },
+    {
+      "lock_date": "2022-06-01",
+      "delivery_date": "2022-08-01",
+      "locked": 16.41,
+      "delivery": 15.41,
+      "advantage_pct": 6.5
+    },
+    {
+      "lock_date": "2022-07-01",
+      "delivery_date": "2022-09-01",
+      "locked": 15.93,
+      "delivery": 15.75,
+      "advantage_pct": 1.1
+    },
+    {
+      "lock_date": "2022-08-01",
+      "delivery_date": "2022-10-01",
+      "locked": 15.41,
+      "delivery": 16.45,
+      "advantage_pct": -6.3
+    },
+    {
+      "lock_date": "2022-09-01",
+      "delivery_date": "2022-11-01",
+      "locked": 15.75,
+      "delivery": 16.83,
+      "advantage_pct": -6.4
+    },
+    {
+      "lock_date": "2022-10-01",
+      "delivery_date": "2022-12-01",
+      "locked": 16.45,
+      "delivery": 17.39,
+      "advantage_pct": -5.4
+    },
+    {
+      "lock_date": "2022-11-01",
+      "delivery_date": "2023-01-01",
+      "locked": 16.83,
+      "delivery": 17.73,
+      "advantage_pct": -5.1
+    },
+    {
+      "lock_date": "2022-12-01",
+      "delivery_date": "2023-02-01",
+      "locked": 17.39,
+      "delivery": 18.51,
+      "advantage_pct": -6.1
+    },
+    {
+      "lock_date": "2023-01-01",
+      "delivery_date": "2023-03-01",
+      "locked": 17.73,
+      "delivery": 18.49,
+      "advantage_pct": -4.1
+    },
+    {
+      "lock_date": "2023-02-01",
+      "delivery_date": "2023-04-01",
+      "locked": 18.51,
+      "delivery": 19.19,
+      "advantage_pct": -3.5
+    },
+    {
+      "lock_date": "2023-03-01",
+      "delivery_date": "2023-05-01",
+      "locked": 18.49,
+      "delivery": 17.43,
+      "advantage_pct": 6.1
+    },
+    {
+      "lock_date": "2023-04-01",
+      "delivery_date": "2023-06-01",
+      "locked": 19.19,
+      "delivery": 16.74,
+      "advantage_pct": 14.6
+    },
+    {
+      "lock_date": "2023-05-01",
+      "delivery_date": "2023-07-01",
+      "locked": 17.43,
+      "delivery": 16.93,
+      "advantage_pct": 3.0
+    },
+    {
+      "lock_date": "2023-06-01",
+      "delivery_date": "2023-08-01",
+      "locked": 16.74,
+      "delivery": 16.68,
+      "advantage_pct": 0.4
+    },
+    {
+      "lock_date": "2023-07-01",
+      "delivery_date": "2023-09-01",
+      "locked": 16.93,
+      "delivery": 16.64,
+      "advantage_pct": 1.7
+    },
+    {
+      "lock_date": "2023-08-01",
+      "delivery_date": "2023-10-01",
+      "locked": 16.68,
+      "delivery": 17.56,
+      "advantage_pct": -5.0
+    },
+    {
+      "lock_date": "2023-09-01",
+      "delivery_date": "2023-11-01",
+      "locked": 16.64,
+      "delivery": 18.59,
+      "advantage_pct": -10.5
+    },
+    {
+      "lock_date": "2023-10-01",
+      "delivery_date": "2023-12-01",
+      "locked": 17.56,
+      "delivery": 18.66,
+      "advantage_pct": -5.9
+    },
+    {
+      "lock_date": "2023-11-01",
+      "delivery_date": "2024-01-01",
+      "locked": 18.59,
+      "delivery": 18.43,
+      "advantage_pct": 0.9
+    },
+    {
+      "lock_date": "2023-12-01",
+      "delivery_date": "2024-02-01",
+      "locked": 18.66,
+      "delivery": 19.22,
+      "advantage_pct": -2.9
+    },
+    {
+      "lock_date": "2024-01-01",
+      "delivery_date": "2024-03-01",
+      "locked": 18.43,
+      "delivery": 20.92,
+      "advantage_pct": -11.9
+    },
+    {
+      "lock_date": "2024-02-01",
+      "delivery_date": "2024-04-01",
+      "locked": 19.22,
+      "delivery": 19.15,
+      "advantage_pct": 0.4
+    },
+    {
+      "lock_date": "2024-03-01",
+      "delivery_date": "2024-05-01",
+      "locked": 20.92,
+      "delivery": 19.11,
+      "advantage_pct": 9.5
+    },
+    {
+      "lock_date": "2024-04-01",
+      "delivery_date": "2024-06-01",
+      "locked": 19.15,
+      "delivery": 18.2,
+      "advantage_pct": 5.2
+    },
+    {
+      "lock_date": "2024-05-01",
+      "delivery_date": "2024-07-01",
+      "locked": 19.11,
+      "delivery": 17.64,
+      "advantage_pct": 8.3
+    },
+    {
+      "lock_date": "2024-06-01",
+      "delivery_date": "2024-08-01",
+      "locked": 18.2,
+      "delivery": 17.43,
+      "advantage_pct": 4.4
+    },
+    {
+      "lock_date": "2024-07-01",
+      "delivery_date": "2024-09-01",
+      "locked": 17.64,
+      "delivery": 18.14,
+      "advantage_pct": -2.8
+    },
+    {
+      "lock_date": "2024-08-01",
+      "delivery_date": "2024-10-01",
+      "locked": 17.43,
+      "delivery": 18.04,
+      "advantage_pct": -3.4
+    },
+    {
+      "lock_date": "2024-09-01",
+      "delivery_date": "2024-11-01",
+      "locked": 18.14,
+      "delivery": 18.93,
+      "advantage_pct": -4.2
+    },
+    {
+      "lock_date": "2024-10-01",
+      "delivery_date": "2024-12-01",
+      "locked": 18.04,
+      "delivery": 20.35,
+      "advantage_pct": -11.4
+    },
+    {
+      "lock_date": "2024-11-01",
+      "delivery_date": "2025-01-01",
+      "locked": 18.93,
+      "delivery": 19.4,
+      "advantage_pct": -2.4
+    },
+    {
+      "lock_date": "2024-12-01",
+      "delivery_date": "2025-02-01",
+      "locked": 20.35,
+      "delivery": 21.15,
+      "advantage_pct": -3.8
+    },
+    {
+      "lock_date": "2025-01-01",
+      "delivery_date": "2025-03-01",
+      "locked": 19.4,
+      "delivery": 20.57,
+      "advantage_pct": -5.7
+    },
+    {
+      "lock_date": "2025-02-01",
+      "delivery_date": "2025-04-01",
+      "locked": 21.15,
+      "delivery": 20.68,
+      "advantage_pct": 2.3
+    },
+    {
+      "lock_date": "2025-03-01",
+      "delivery_date": "2025-05-01",
+      "locked": 20.57,
+      "delivery": 19.93,
+      "advantage_pct": 3.2
+    },
+    {
+      "lock_date": "2025-04-01",
+      "delivery_date": "2025-06-01",
+      "locked": 20.68,
+      "delivery": 19.72,
+      "advantage_pct": 4.9
+    }
+  ],
+  "method": "walk-forward по всей истории, без lookahead: каждое окно оценивается на фактической цене поставки",
+  "model_guided": {
+    "n_points": 52,
+    "n_lock_advice": 25,
+    "lock_precision_pct": 80.0,
+    "mean_advantage_model_pct": 2.0,
+    "mean_advantage_naive_pct": -0.6,
+    "note": "AI-стратегия фиксирует только при прогнозе падения. lock_precision — доля верных решений «зафиксировать». Без lookahead: модель обучается лишь на прошлом."
+  }
+}

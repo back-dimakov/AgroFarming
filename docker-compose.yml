@@ -1,0 +1,21 @@
+# Запуск всего проекта одной командой:  docker-compose up --build
+# Бэкенд работает самостоятельно. Фронтенд (папку ./frontend готовит Dev 1)
+# подключится тем же compose — раскомментируйте блок, когда папка появится.
+services:
+  backend:
+    build: ./backend
+    ports:
+      - "8000:8000"
+    environment:
+      - ANTHROPIC_API_KEY=${ANTHROPIC_API_KEY}
+    volumes:
+      - ./backend/data:/app/data
+
+  # frontend:
+  #   build: ./frontend
+  #   ports:
+  #     - "3000:3000"
+  #   environment:
+  #     - NEXT_PUBLIC_API_URL=http://localhost:8000
+  #   depends_on:
+  #     - backend

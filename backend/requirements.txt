@@ -1,0 +1,9 @@
+fastapi
+uvicorn[standard]
+prophet
+pandas
+numpy
+sqlalchemy
+python-docx
+anthropic
+python-dotenv

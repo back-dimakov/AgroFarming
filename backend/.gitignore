@@ -1,5 +1,4 @@
 # Зависимости / окружения
-node_modules/
 __pycache__/
 *.pyc
 venv/
@@ -9,15 +8,10 @@ venv/
 .env
 .env.local
 
-# Локальная БД
+# Локальная БД (пересоздаётся из seed_db.py)
 *.db
 *.sqlite
 
 # Системное
 .DS_Store
 Thumbs.db
-
-# Сборки фронтенда
-.next/
-dist/
-build/

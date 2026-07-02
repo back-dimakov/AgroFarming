@@ -1,0 +1,26 @@
+{
+  "match_score": 95,
+  "label": "Совпадает",
+  "breakdown": {
+    "price": {
+      "score": 89,
+      "label": "Близко",
+      "weight": 0.4
+    },
+    "volume": {
+      "score": 100,
+      "label": "Совпадает",
+      "weight": 0.3
+    },
+    "region": {
+      "score": 100,
+      "label": "Совпадает",
+      "weight": 0.2
+    },
+    "timing": {
+      "score": 100,
+      "label": "Совпадает",
+      "weight": 0.1
+    }
+  }
+}

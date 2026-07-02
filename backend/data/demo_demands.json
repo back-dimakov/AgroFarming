@@ -1,0 +1,8 @@
+[
+  {"user_name": "АО «Краснодарский мелькомбинат»", "region": "Краснодарский край", "crop": "wheat", "crop_name": "Пшеница", "volume_tons": 50, "max_price_per_kg": 19.0, "delivery_days": 60, "requirements": "3 класс, клейковина от 23%", "deals_count": 12},
+  {"user_name": "Хлебокомбинат №3", "region": "Ростовская область", "crop": "wheat", "crop_name": "Пшеница", "volume_tons": 100, "max_price_per_kg": 19.5, "delivery_days": 50, "requirements": "4 класс", "deals_count": 4},
+  {"user_name": "Сеть «Овощебаза»", "region": "Воронежская область", "crop": "potato", "crop_name": "Картофель", "volume_tons": 30, "max_price_per_kg": 28.0, "delivery_days": 30, "requirements": "калибр 5+, без зелени", "deals_count": 7},
+  {"user_name": "ООО «Чипсы Плюс»", "region": "Московская область", "crop": "potato", "crop_name": "Картофель", "volume_tons": 80, "max_price_per_kg": 30.0, "delivery_days": 90, "requirements": "сорт для переработки", "deals_count": 0},
+  {"user_name": "МЭЗ «Юг Руси»", "region": "Краснодарский край", "crop": "sunflower", "crop_name": "Подсолнечник", "volume_tons": 100, "max_price_per_kg": 39.0, "delivery_days": 60, "requirements": "масличность от 44%", "deals_count": 25},
+  {"user_name": "Маслозавод «Поволжье»", "region": "Самарская область", "crop": "sunflower", "crop_name": "Подсолнечник", "volume_tons": 60, "max_price_per_kg": 40.5, "delivery_days": 70, "requirements": "влажность до 8%", "deals_count": 2}
+]

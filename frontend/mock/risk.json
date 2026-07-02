@@ -1,0 +1,26 @@
+{
+  "risk_level": "low",
+  "risk_label": "Низкий",
+  "breakdown": {
+    "price_risk": {
+      "level": "low",
+      "label": "Низкий",
+      "corridor": [
+        18.41,
+        19.1
+      ],
+      "price": 18.5
+    },
+    "counterparty_risk": {
+      "level": "low",
+      "label": "Низкий",
+      "deals_count": 12
+    },
+    "logistics_risk": {
+      "level": "low",
+      "label": "Низкий"
+    }
+  },
+  "offer_id": 1,
+  "demand_id": 1
+}
