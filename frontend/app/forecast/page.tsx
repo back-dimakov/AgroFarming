@@ -153,8 +153,8 @@ export default function ForecastPage() {
                     width={52}
                   />
                   <Tooltip
-                    formatter={(value: number, name: string) => [
-                      `${value.toFixed(2)} ₽/кг`,
+                    formatter={(value, name) => [
+                      `${Number(value).toFixed(2)} ₽/кг`,
                       name === "high"
                         ? "Макс."
                         : name === "low"
