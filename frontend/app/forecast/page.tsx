@@ -161,7 +161,7 @@ export default function ForecastPage() {
                         ? "Мин."
                         : "Цена",
                     ]}
-                    labelFormatter={(label: string) => `Дата: ${label}`}
+                    labelFormatter={(label) => `Дата: ${label}`}
                     contentStyle={{
                       fontSize: 12,
                       borderRadius: 8,
