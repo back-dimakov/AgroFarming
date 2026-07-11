@@ -33,10 +33,10 @@ def read_root():
     return {"status": "ok", "service": "AgroForward API", "docs": "/docs"}
 
 
-app.include_router(offers.router, prefix="/offers", tags=["offers"])
-app.include_router(demands.router, prefix="/demands", tags=["demands"])
-app.include_router(forecast.router, prefix="/forecast", tags=["forecast"])
-app.include_router(match.router, prefix="/match", tags=["match"])
-app.include_router(risk.router, prefix="/risk", tags=["risk"])
-app.include_router(contract.router, prefix="/contract", tags=["contract"])
-app.include_router(backtest.router, prefix="/backtest", tags=["backtest"])
+app.include_router(offers.router, prefix="/api/offers", tags=["offers"])
+app.include_router(demands.router, prefix="/api/demands", tags=["demands"])
+app.include_router(forecast.router, prefix="/api/forecast", tags=["forecast"])
+app.include_router(match.router, prefix="/api/match", tags=["match"])
+app.include_router(risk.router, prefix="/api/risk", tags=["risk"])
+app.include_router(contract.router, prefix="/api/contract", tags=["contract"])
+app.include_router(backtest.router, prefix="/api/backtest", tags=["backtest"])
