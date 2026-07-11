@@ -39,6 +39,30 @@
 ---
 
 ## Структура репозитория
+
+```
+AgroFarming/
+├── backend/                # FastAPI-сервис
+│   ├── main.py              # точка входа, регистрация роутеров (/api/*)
+│   ├── models/               # SQLAlchemy-модели
+│   ├── routers/              # offers, demands, forecast, match, risk, contract, backtest
+│   ├── mock/                 # демо-данные для автосидинга
+│   ├── scripts/               # вспомогательные скрипты
+│   └── seed_db.py            # наполнение БД тестовыми данными
+├── frontend/                # Next.js (App Router) + TypeScript
+│   ├── app/                  # страницы: /, /forecast, /match, /backtest, /create
+│   ├── lib/                   # api.ts — клиент к бэкенду, types.ts
+│   └── mock/                  # моки для режима без бэкенда
+├── docker-compose.yml        # локальный запуск фронта+бэка одной командой
+└── vercel.json               # конфигурация деплоя на Vercel
+```
+
+## Демо
+
+Рабочая версия развёрнута на Vercel: **https://agro-farming-zotw.vercel.app**
+
+> Бэкенд на Vercel работает как serverless-функция (SQLite в `/tmp`, автосидинг демо-данными при холодном старте). Даты в прогнозе показывают 2025 год — это исторические данные для обучения модели, не баг рантайма.
+
 ## Быстрый старт
 
 ### Вариант 1 — Docker Compose (рекомендуется)
@@ -60,17 +84,25 @@ docker-compose up --build
 Бэкенд:
 ```bash
 cd backend
-python -m venv venv
-venv\Scripts\activate
 pip install -r requirements.txt
 python seed_db.py
-uvicorn main:app --reload --port 8000
+python -m uvicorn main:app --reload --port 8000
 ```
+> На Windows команда `uvicorn` может быть недоступна напрямую в PATH — используйте `python -m uvicorn`, как указано выше.
 
 Фронтенд (отдельный терминал):
 ```bash
 cd frontend
 npm install
+```
+
+Создайте `frontend/.env.local`:
+```
+NEXT_PUBLIC_API_URL=http://localhost:8000/api
+```
+> Важно: все роуты бэкенда живут под префиксом `/api` (например, `/api/offers`). Без этой переменной фронтенд будет стучаться на `/offers` напрямую и получит 404.
+
+```bash
 npm run dev
 ```
 
@@ -78,15 +110,17 @@ npm run dev
 
 ## Основные эндпоинты API
 
+Локально: `http://localhost:8000/api/...` · На Vercel: `https://agro-farming-zotw.vercel.app/api/...`
+
 | Метод | Путь | Назначение |
 |-------|------|-----------|
-| GET | /offers | Предложения (продажа) |
-| GET | /demands | Спрос (закупка) |
-| GET | /forecast?crop=wheat&days=60 | Прогноз + AI-объяснение |
-| GET | /match/find?offer_id=1 | Подбор покупателей |
-| GET | /risk?offer_id=1&demand_id=1 | Риск-оценка сделки |
-| GET | /backtest?crop=wheat | Бэктест фиксации цены |
-| GET | /contract/{deal_id}?offer_id=1&demand_id=1 | Договор (DOCX) |
+| GET | /api/offers | Предложения (продажа) |
+| GET | /api/demands | Спрос (закупка) |
+| GET | /api/forecast?crop=wheat&days=60 | Прогноз + AI-объяснение |
+| GET | /api/match/find?offer_id=1 | Подбор покупателей |
+| GET | /api/risk?offer_id=1&demand_id=1 | Риск-оценка сделки |
+| GET | /api/backtest?crop=wheat | Бэктест фиксации цены |
+| GET | /api/contract/{deal_id}?offer_id=1&demand_id=1 | Договор (DOCX) |
 
 ## Команда
 
@@ -97,4 +131,6 @@ npm run dev
 
 ## Статус
 
-MVP для хакатона Kodik Launchpad. Развитие: Telegram-бот для ценовых алертов, расширение культур, платёжные интеграции.
+MVP для хакатона Kodik Launchpad. Агросектор (пшеница, картофель, подсолнечник) — первая вертикаль: здесь острее всего ощущается нехватка доступных инструментов хеджирования у малого и среднего бизнеса. Прогнозный, скоринговый и контрактный движки не завязаны на конкретный товар и переносимы на любой B2B OTC-рынок.
+
+Развитие: расширение культур (кукуруза, ячмень, сахарная свёкла), Telegram-бот для ценовых алертов, платёжные интеграции, новые товарные вертикали.
